@@ -14,7 +14,7 @@ fn main() {
         .parse()
         .expect("Failed to enter number");
 
-    let conversion_type: &str = &read_input("Choose unit Fahrenheit (F) or Celcius(C)");
+    let conversion_type: &str = &read_input("Choose unit Fahrenheit(F) or Celcius(C)");
 
     println!(
         "Your temperature: {}",
